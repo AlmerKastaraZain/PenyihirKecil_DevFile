@@ -1,0 +1,213 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1562731334908639989
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8978183021099212125}
+  - component: {fileID: 2181698033511384689}
+  - component: {fileID: 7806967010787847024}
+  - component: {fileID: 3659916050451448999}
+  - component: {fileID: 7869238409344657438}
+  - component: {fileID: 1037595716229490521}
+  - component: {fileID: 3645478143473352858}
+  - component: {fileID: 3371644876479184393}
+  - component: {fileID: 5434066054653496686}
+  - component: {fileID: 6124656013950280785}
+  m_Layer: 0
+  m_Name: GameController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8978183021099212125
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1562731334908639989}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.3040577, y: -0.6935333, z: -0.041961152}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2181698033511384689
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1562731334908639989}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: baba517081d119f4d99d11518359e68b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerController: {fileID: 0}
+  PickUpSystem: {fileID: 0}
+  inventoryController: {fileID: 0}
+  inventoryUI: {fileID: 0}
+  money: {fileID: 11400000, guid: 33b4f4c1ecc0b074281ccc422eab60e2, type: 2}
+  disableMovement: 0
+--- !u!114 &7806967010787847024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1562731334908639989}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35b8ad12c2cd1d04c897ee511bced97f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueBox: {fileID: 0}
+  dialogueText: {fileID: 0}
+  letterPerSecond: 20
+  potraitImage_1: {fileID: 0}
+  potraitImage_2: {fileID: 0}
+  CharName1: {fileID: 0}
+  CharName2: {fileID: 0}
+  audioSources: {fileID: 0}
+  timeRemaining: 0.5
+--- !u!114 &3659916050451448999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1562731334908639989}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c546fd2cef40b74ba859a11788b0336, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeModel: {fileID: 11400000, guid: f9c54386918b2ed4cbaca74e84ce5689, type: 2}
+  lightObject: {fileID: 0}
+--- !u!114 &7869238409344657438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1562731334908639989}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cc7b3886bb3cf5478cd8f6da6c6af2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inventoryUI: {fileID: 0}
+  inventoryData: {fileID: 11400000, guid: 72b5d57f69678024288fa472814cabb5, type: 2}
+  initialItems: []
+  inputItemDivide: {fileID: 0}
+  UIInputItemSell: {fileID: 0}
+  shopController: {fileID: 1037595716229490521}
+  UI_Shop: {fileID: 0}
+  SellShop: {fileID: 0}
+  BuyShop: {fileID: 0}
+  UIMoney: {fileID: 0}
+  money: {fileID: 11400000, guid: 33b4f4c1ecc0b074281ccc422eab60e2, type: 2}
+--- !u!114 &1037595716229490521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1562731334908639989}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9883a157830cda41b323b8894ab184c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inventoryUI: {fileID: 0}
+  inventoryData: {fileID: 11400000, guid: 59a36f460595a5943bfc1c80725a1874, type: 2}
+  initialItems: []
+  inputItemDivide: {fileID: 0}
+  playerInventory: {fileID: 11400000, guid: 72b5d57f69678024288fa472814cabb5, type: 2}
+  UIInputItemBuy: {fileID: 0}
+  UI_Shop: {fileID: 0}
+  SellShop: {fileID: 0}
+  BuyShop: {fileID: 0}
+  UIMoney: {fileID: 0}
+  money: {fileID: 11400000, guid: 33b4f4c1ecc0b074281ccc422eab60e2, type: 2}
+--- !u!114 &3645478143473352858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1562731334908639989}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 059d99816dca217449b407721029128d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inventoryUI: {fileID: 0}
+  inventoryData: {fileID: 11400000, guid: 72b5d57f69678024288fa472814cabb5, type: 2}
+  initialItems: []
+  inputItemDivide: {fileID: 0}
+  UI_CraftInv: {fileID: 0}
+  UI_CraftPanel: {fileID: 0}
+  craftingData: {fileID: 11400000, guid: eebd93e6b24a5ba4a8c489252d184283, type: 2}
+  Crafting: {fileID: 0}
+  Journal: {fileID: 0}
+  listOfCraftableSO: {fileID: 11400000, guid: b817a676d6837654991f730f286a18c6, type: 2}
+  controllerState: 0
+--- !u!114 &3371644876479184393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1562731334908639989}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae5a82de3aacec84d8f085fd138f0fec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  craftingList: {fileID: 11400000, guid: b817a676d6837654991f730f286a18c6, type: 2}
+  inventory: {fileID: 11400000, guid: e903f0e36b44c0c46a125cf2ab4f5a8e, type: 2}
+  recipeInfo: {fileID: 11400000, guid: 383b4adcfa09014478179fb24026c316, type: 2}
+  craftingJournal: {fileID: 0}
+  infoJournal: {fileID: 0}
+  Crafting: {fileID: 0}
+  Journal: {fileID: 0}
+  UI_Money: {fileID: 0}
+--- !u!114 &5434066054653496686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1562731334908639989}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de316184722760b4fb0b2d748769a4de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moneyObject: {fileID: 11400000, guid: 33b4f4c1ecc0b074281ccc422eab60e2, type: 2}
+  initialMoney: 0
+  moneyCounter: {fileID: 0}
+--- !u!114 &6124656013950280785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1562731334908639989}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d44290ec60879347b39e4bc72bdee70, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questObject: {fileID: 0}
+  playerInventory: {fileID: 11400000, guid: 72b5d57f69678024288fa472814cabb5, type: 2}

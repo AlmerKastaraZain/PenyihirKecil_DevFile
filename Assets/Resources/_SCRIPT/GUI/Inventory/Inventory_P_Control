@@ -1,0 +1,33 @@
+using Inventory_UI;
+using Inventory_Models;
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.Events;
+
+namespace Inventory
+{
+    public class Inventory_Control : MonoBehaviour
+    {
+        [SerializeField] private UI_Inventory inventoryUI;
+        [SerializeField] private InventorySO inventoryData;
+        private void Update()
+        {
+            if (Input.GetKeyDown(KeyCode.I) && inventoryUI.gameObject.activeSelf)
+            {
+                UI_InventoryAction.HideInventory?.Invoke();
+                foreach (var item in inventoryData.GetCurrentInventoryState())
+                {
+                    inventoryUI.UpdateData(item.Key,
+                        item.Value.item.itemImage,
+                        item.Value.quantity);
+                }
+            }
+            else if (Input.GetKeyDown(KeyCode.I))
+            {
+                UI_InventoryAction.ShowInventory?.Invoke();
+            }
+        }
+    }
+}

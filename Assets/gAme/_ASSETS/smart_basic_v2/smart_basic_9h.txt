@@ -1,0 +1,18 @@
+Hey! I'm glad you're trying one of my fonts~♥️
+You can get the premium version with extended character support on:
+
+https://somepx.itch.io/pixel-font-smart
+
+-------------------------------------------------------------------
+
+CONSTRUCT 3 - SpriteFont parameters
+
+Character width: 16
+
+Character height: 16
+
+Character set:
+ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789.,;:?!"'+-=*%_()
+
+Spacing data:
+[[5," "],[9,"MWmw*"],[8,"_"],[7,"ABCDEFGHKLNOPQRSTUVXYZabcdefghklnopqrstuvxyz0123456789?+-=%"],[6,"\""],[5,"Jj()"],[4,".,;:!'"],[3,"Ii"]]

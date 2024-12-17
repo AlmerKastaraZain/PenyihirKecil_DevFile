@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 932d7812dded9034d85e0b30f32cdc58, type: 3}
+  m_Name: ShoppeKeepe
+  m_EditorClassIdentifier: 
+  <dialogue>k__BackingField:
+    lines:
+    - 12
+    turns: 00000000
+    clips:
+    - {fileID: 0}
+  <NPCName>k__BackingField: da
+  <audioSource>k__BackingField: {fileID: 0}
+  <NPCPotrait>k__BackingField: {fileID: 1509174301, guid: b3fe7986bcf8e0546a2ca157eb9d939b, type: 3}
+  objectSO: {fileID: 11400000, guid: 0b637a0e56166744d9c204522776d74f, type: 2}
+  DayPassed: 0

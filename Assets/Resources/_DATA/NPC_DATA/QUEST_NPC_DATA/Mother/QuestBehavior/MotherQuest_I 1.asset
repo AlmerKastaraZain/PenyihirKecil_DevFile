@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 962837cbad33cbf4887da8600795a899, type: 3}
+  m_Name: MotherQuest_I 1
+  m_EditorClassIdentifier: 
+  <dialogue>k__BackingField:
+    lines:
+    - Empty.... Ah! Look who has gotten out of bed! We are running out of Takera
+      Mushroom. Could you please fetch some?
+    - Uh? Why me? There's a trader outside! You could just buy one there!
+    - Don't be lazy! Currently I don't have money to buy it.
+    - Okay... Fine. I'll fetch some. How many mushroom do you need?
+    - Five is enough...
+    - 'I''m going now... '
+    - Oh! Remember to stay safe!
+    - Yes, Mother!
+    turns: 0100000000000000010000000000000001000000000000000100000000000000
+    clips:
+    - {fileID: 8300000, guid: 3455195eb16f1ee4fafef608511fed20, type: 3}
+    - {fileID: 8300000, guid: 58d559846eec44b4f8331dda6ffb0bdb, type: 3}
+    - {fileID: 8300000, guid: ae6f567b2ba9bd74e80e7b1132001798, type: 3}
+    - {fileID: 8300000, guid: 108a839b76c576740b9851e4bfca84e9, type: 3}
+    - {fileID: 8300000, guid: f216c75094a61e64e9407a3e4d92871a, type: 3}
+    - {fileID: 8300000, guid: ba61672fd64602a4186f7755ee17642a, type: 3}
+    - {fileID: 8300000, guid: 9e5124506752b6d48b5eb0c59a691708, type: 3}
+    - {fileID: 8300000, guid: 2b2427435dcc84e43b89ca9a7507c1d6, type: 3}
+  <NPCName>k__BackingField: Mother
+  <audioSource>k__BackingField: {fileID: 0}
+  <NPCPotrait>k__BackingField: {fileID: 21300000, guid: e444f8166bea6a6498a2ca9cf616bf14, type: 3}

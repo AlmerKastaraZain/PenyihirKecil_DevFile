@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fee70b7ecfed674dbbb2059dff2eafe, type: 3}
+  m_Name: Potion Energy
+  m_EditorClassIdentifier: 
+  <IsStackable>k__BackingField: 0
+  <MaxStackSize>k__BackingField: 1
+  <Name>k__BackingField: Potion Energy
+  <Effect>k__BackingField: Energy!!
+  <ItemMarketValue>k__BackingField: 1200
+  <Description>k__BackingField: A strange potion that gives you more Energy!
+  <itemImage>k__BackingField: {fileID: 341739373, guid: 9c57d1dc2b64f7045b16ac191382810c, type: 3}
+  recipe:
+  - {fileID: 11400000, guid: 20a48249165b05e499aeb502b437d2bf, type: 2}
+  - {fileID: 11400000, guid: 20a48249165b05e499aeb502b437d2bf, type: 2}
+  - {fileID: 11400000, guid: 20a48249165b05e499aeb502b437d2bf, type: 2}
+  modifiersData:
+  - statModifier: {fileID: 11400000, guid: 976d4dd4e41b16248b3281b12f4e23b1, type: 2}
+    value: 100
+  <actionSFX>k__BackingField: {fileID: 8300000, guid: c117fc9192f6aa24bb750de17c3d13c3, type: 3}

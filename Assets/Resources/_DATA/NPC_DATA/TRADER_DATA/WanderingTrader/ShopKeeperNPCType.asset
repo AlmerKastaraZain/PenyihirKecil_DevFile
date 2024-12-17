@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 932d7812dded9034d85e0b30f32cdc58, type: 3}
+  m_Name: ShopKeeperNPCType
+  m_EditorClassIdentifier: 
+  <dialogue>k__BackingField:
+    lines:
+    - Hey there, are you interested in some plants, and herbs?
+    turns: 01000000
+    clips:
+    - {fileID: 8300000, guid: 99eef338b9263364686bd792aa2440e0, type: 3}
+  <NPCName>k__BackingField: Wandering Trader
+  <audioSource>k__BackingField: {fileID: 0}
+  <NPCPotrait>k__BackingField: {fileID: 21300000, guid: 4c2ef996d01e46c4ea94c3fcefd83787, type: 3}
+  objectSO: {fileID: 11400000, guid: 9ba2ee8ad3194dd488421f3c3b6cf7a5, type: 2}
+  DayPassed: 0

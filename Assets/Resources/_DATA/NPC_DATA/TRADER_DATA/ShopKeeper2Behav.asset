@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 932d7812dded9034d85e0b30f32cdc58, type: 3}
+  m_Name: ShopKeeper2Behav
+  m_EditorClassIdentifier: 
+  <dialogue>k__BackingField:
+    lines:
+    - Hello
+    turns: 00000000
+    clips:
+    - {fileID: 8300000, guid: 6348ff13b73a57b4cb7613a159b7321f, type: 3}
+  <NPCName>k__BackingField: dasd
+  <audioSource>k__BackingField: {fileID: 0}
+  <NPCPotrait>k__BackingField: {fileID: -1698740302, guid: ff1ae90c7aa15484ca8af32140182205, type: 3}
+  objectSO: {fileID: 11400000, guid: 9ba2ee8ad3194dd488421f3c3b6cf7a5, type: 2}
+  DayPassed: 0
